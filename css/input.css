@@ -1,0 +1,12 @@
+table { width: 100%; }
+th { text-align: left; }
+th, td { padding: 10px 10px; }
+input[type=text], input[type=number], input[type=email], input[type=date], input[type=file], select {
+	padding: 5px;
+	width: 500px;
+}
+button[type=submit] {
+	padding: 6px 20px;
+	font-size: 15px;
+}
+.error { color: red; }

@@ -1,0 +1,34 @@
+body {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: "Poppins", sans-serif;
+}
+#bottom {
+	display: grid;
+	grid-template-columns: 20% 80%;
+}
+#head {
+	padding: 0 20px;
+	border-top: 2px solid lightgray;
+}
+#body {
+	padding: 20px;
+	background-color: #f2f2f2;
+	min-height: 600px;
+}
+#output, #input {
+	background-color: #ffffff;
+	padding: 20px;
+}
+#totstudents { background-color: #3498db; }
+#totsubjects { background-color: #e74c3c; }
+#totclasses { background-color: #f39c12; }
+#totresults { background-color: #27ae60; }
+.total {
+	padding: 30px;
+	text-align: right;
+	max-height: 80px;
+	color: #ffffff;
+	border-radius: 10px;
+}

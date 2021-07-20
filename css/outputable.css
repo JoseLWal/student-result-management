@@ -1,0 +1,7 @@
+tr, th, td { border: 1px solid black; }
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+th { text-align: left; }
+th, td { padding: 5px 10px; }
